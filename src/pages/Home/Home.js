@@ -18,8 +18,19 @@ import macbook from "../../assets/images/macbook.png";
 import DefaultFooter from "../../examples/Footers/DefaultFooter";
 import footerRoutes from "../../footer.routes";
 import logoCEO from "../../assets/images/logos/gray-logos/Logo CEO.png";
+import {useNavigate} from "react-router-dom";
 
 function Home() {
+
+  const navigate = useNavigate();
+
+  const gotologin = () => {
+    navigate("/login");
+  }
+  const gotoregister = () => {
+    navigate("/register");
+  }
+
   return (
     <>
       <MKBox component="header" position="relative">
@@ -82,10 +93,10 @@ function Home() {
               </MKBox>
 
               <Stack direction="row" spacing={1} mt={3}>
-                <MKButton href="/login" color="white">
+                <MKButton onClick={gotologin} color="white">
                   Iniciar Sesión
                 </MKButton>
-                <MKButton href="/register" variant="text" color="white">
+                <MKButton onClick={gotoregister} variant="text" color="white">
                   Registrarte
                 </MKButton>
               </Stack>

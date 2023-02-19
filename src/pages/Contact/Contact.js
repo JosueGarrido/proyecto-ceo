@@ -16,7 +16,7 @@ import routesceo from "../../routesceo";
 import footerRoutes from "../../footer.routes";
 
 // Image
-import bgImage from "../../assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "../../assets/images/bg-guitarras-y-tab.jpg";
 
 function Contact() {
   return (

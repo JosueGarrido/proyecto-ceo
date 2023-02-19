@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.26e88ede.chunk.js",
-    "main.js.map": "/static/js/main.26e88ede.chunk.js.map",
+    "main.js": "/static/js/main.f127185d.chunk.js",
+    "main.js.map": "/static/js/main.f127185d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.595a9f34.js",
     "runtime-main.js.map": "/static/js/runtime-main.595a9f34.js.map",
-    "static/js/2.0eb32a5b.chunk.js": "/static/js/2.0eb32a5b.chunk.js",
-    "static/js/2.0eb32a5b.chunk.js.map": "/static/js/2.0eb32a5b.chunk.js.map",
+    "static/css/2.04fb433f.chunk.css": "/static/css/2.04fb433f.chunk.css",
+    "static/js/2.d7baa946.chunk.js": "/static/js/2.d7baa946.chunk.js",
+    "static/js/2.d7baa946.chunk.js.map": "/static/js/2.d7baa946.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.0eb32a5b.chunk.js.LICENSE.txt": "/static/js/2.0eb32a5b.chunk.js.LICENSE.txt",
+    "static/css/2.04fb433f.chunk.css.map": "/static/css/2.04fb433f.chunk.css.map",
+    "static/js/2.d7baa946.chunk.js.LICENSE.txt": "/static/js/2.d7baa946.chunk.js.LICENSE.txt",
     "static/media/Logo CEO.4387be29.png": "/static/media/Logo CEO.4387be29.png",
+    "static/media/style.css": "/static/media/step-backward.668fe580.svg",
     "static/media/bg-about-us.cf9a123e.jpg": "/static/media/bg-about-us.cf9a123e.jpg",
     "static/media/bg-coworking.06bccc47.jpeg": "/static/media/bg-coworking.06bccc47.jpeg",
+    "static/media/bg-guitarras-y-tab.f216756b.jpg": "/static/media/bg-guitarras-y-tab.f216756b.jpg",
+    "static/media/bg-instrumentos.51fd8386.jpg": "/static/media/bg-instrumentos.51fd8386.jpg",
     "static/media/bg-notacion-musical.658594ea.jpeg": "/static/media/bg-notacion-musical.658594ea.jpeg",
     "static/media/bg-presentation.88963029.jpg": "/static/media/bg-presentation.88963029.jpg",
     "static/media/bg-sign-in-basic.f327db1d.jpeg": "/static/media/bg-sign-in-basic.f327db1d.jpeg",
@@ -19,7 +24,6 @@
     "static/media/blog2.aba7a3cb.jpg": "/static/media/blog2.aba7a3cb.jpg",
     "static/media/bruce-mars.8a606c4a.jpg": "/static/media/bruce-mars.8a606c4a.jpg",
     "static/media/city-profile.4d64bba9.jpg": "/static/media/city-profile.4d64bba9.jpg",
-    "static/media/illustration-reset.c5f36c0c.jpg": "/static/media/illustration-reset.c5f36c0c.jpg",
     "static/media/ivana-square.f7bc23b2.jpg": "/static/media/ivana-square.f7bc23b2.jpg",
     "static/media/ivana-squares.3c555b85.jpg": "/static/media/ivana-squares.3c555b85.jpg",
     "static/media/logo-apple.f9c2682e.svg": "/static/media/logo-apple.f9c2682e.svg",
@@ -45,7 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.595a9f34.js",
-    "static/js/2.0eb32a5b.chunk.js",
-    "static/js/main.26e88ede.chunk.js"
+    "static/css/2.04fb433f.chunk.css",
+    "static/js/2.d7baa946.chunk.js",
+    "static/js/main.f127185d.chunk.js"
   ]
 }

@@ -31,6 +31,7 @@ import Toggles from "./layouts/sections/elements/toggles";
 import Typography from "./layouts/sections/elements/typography";
 import Register from "./pages/Register/Register";
 import Dashboard from "./pages/Dashboard/Dashboard";
+import AuditTrainning from "./pages/Courses/CourseAuditTrainning/AuditTrainning";
 
 const routes = [
   {
@@ -61,6 +62,11 @@ const routes = [
             name: "dashboard",
             route: "/dashboard",
             component: <Dashboard />,
+          },
+          {
+            name: "audit",
+            route: "/audit-trainning",
+            component: <AuditTrainning />,
           },
         ],
       },

@@ -1,5 +1,5 @@
 // react-router-dom components
-import { Link } from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 // @mui material components
 import Card from "@mui/material/Card";
@@ -28,6 +28,13 @@ import routesceo from "../../routesceo";
 import bgImage from "../../assets/images/bg2.jpg";
 
 function Register() {
+
+  const navigate = useNavigate();
+
+  const gotodashboarh = () => {
+    navigate("/dashboard");
+  }
+
   return (
     <>
       <DefaultNavbar
@@ -116,7 +123,7 @@ function Register() {
                     <MKInput type="phone" label="Telefono" fullWidth />
                   </MKBox>
                   <MKBox mt={4} mb={1}>
-                    <MKButton href="/dashboard" variant="gradient" color="info" fullWidth>
+                    <MKButton onClick={gotodashboarh} variant="gradient" color="info" fullWidth>
                       sign up
                     </MKButton>
                   </MKBox>
